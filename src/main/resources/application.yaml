@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /devices
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring.jackson:
+    visibility:
+      field: any
+      getter: none
+      setter: none
+      is-getter: none
+
+adress: http://localhost:8080/devices/
+arg1: 10b11b12b13b14b15b16b17b18
+arg2: 20b21b22b23b24b25b26b27b28
